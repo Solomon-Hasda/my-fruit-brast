@@ -1,29 +1,37 @@
-body{
+body {
     font-family: 'Lato', sans-serif;
 }
 
-@media screen and (max-width:576px) {
-        .navbar-start ,.navbar-end{
-            visibility: hidden;
-        }
-        .navbar{
-            position: relative;
-            height:150px;
-        }
-        .navbar-center{
-            position: absolute;
-            left: 10px;
-        }
-        .navbar-center img{
-            height: 50px;
-            width: 50px;
-        }
-        .navbar-center a{
-            font-size: 24px;
-            color: black;
-        }
-        .hero{
-            
-        }
+.hr{
+    background: rgba(99, 95, 95, 0.1);
+    width: 244px;
+    height: 0.5px;
 }
 
+@media screen and (max-width:576px) {
+
+    .navbar-start,
+    .navbar-end {
+        visibility: hidden;
+    }
+
+    .navbar {
+        position: relative;
+        height: 150px;
+    }
+
+    .navbar-center {
+        position: absolute;
+        left: 10px;
+    }
+
+    .navbar-center img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .navbar-center a {
+        font-size: 24px;
+        color: black;
+    }
+}

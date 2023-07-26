@@ -38,9 +38,12 @@
                         <img src="images/logo.png" alt="">
                         <a class=" hover:text-gray-700 normal-case ml-5 font-bold text-4xl">Fruit Burst</a>
                     </div>
-                    <div class="navbar-end ">
-                        <input type="text" placeholder="search here"
-                            class="input input-bordered input-success w-full max-w-xs rounded-full" />
+                    <div class="navbar-end relative">
+                        <div class=" ">
+                            <input type="text" placeholder="search here"
+                                class="input input-bordered input-success w-full max-w-xs rounded-full" />
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass text-2xl absolute text-gray-700 right-3"></i>
                     </div>
                 </div>
             </div>
@@ -64,7 +67,130 @@
 
         <!-- Deal of the day -->
         <section>
-
+            <!-- deal part 1 -->
+            <div
+                class="flex flex-col lg:flex-row lg:justify-between items-center text-center lg:text-start lg:py-24 p-5 lg:p-0">
+                <div>
+                    <h2 class="font-extrabold text-[#121212] lg:text-5xl text-3xl mb-6">Deal Of The Day</h2>
+                    <p class="text-base text-gray-500">Contrary to popular belief, is not simply random text. It has
+                        roots in a piece of classical <br> Latin
+                        literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <div>
+                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                        <div class="flex flex-col">
+                            <span class="countdown font-extrabold  lg:text-5xl text-3xl">
+                                <span style="--value:29;"></span><i
+                                    class="fa-solid fa-ellipsis-vertical text-sm ml-5 mt-5"></i>
+                            </span>
+                            <p class="text-[#12121299] mt-3 mr-5">Days</p>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-extrabold lg:text-5xl text-3xl">
+                                <span style="--value:15;"></span><i
+                                    class="fa-solid fa-ellipsis-vertical text-sm ml-5 mt-5"></i>
+                            </span>
+                            <p class="text-[#12121299] mt-3 mr-5">Hours</p>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-extrabold lg:text-5xl text-3xl">
+                                <span style="--value:25;"></span><i
+                                    class="fa-solid fa-ellipsis-vertical text-sm ml-5 mt-5"></i>
+                            </span>
+                            <p class="text-[#12121299] mt-3 mr-5"> Min</p>
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown font-extrabold  lg:text-5xl text-3xl">
+                                <span style="--value:33;"></span>
+                            </span>
+                            <p class="text-[#12121299] mt-3">Sec</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- deal part 2 -->
+            <div class="grid gap-5 grid-cols-1 lg:grid-cols-4 md:grid-cols-2 p-5 lg:p-0">
+                <div class="card bg-base-100 shadow-xl border border-gray-200">
+                    <figure class="px-10 pt-10">
+                        <img src="images/fruit6.png" alt="Apple" class="" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title font-bold text-2xl">12.90$ - 18.85$</h2>
+                        <hr class="hr">
+                        <p class="font-medium text-[#12121299] text-base">Apple</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <div class="card-actions">
+                            <h2>Datails</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl border border-gray-200">
+                    <figure class="px-10 pt-10">
+                        <img src="images/fruit7.png" alt="Apple" class="" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title font-bold text-2xl">12.90$ - 18.85$</h2>
+                        <hr class="hr">
+                        <p class="font-medium text-[#12121299] text-base">Orange</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <div class="card-actions">
+                            <h2>Datails</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl border border-gray-200">
+                    <figure class="px-10 pt-10">
+                        <img src="images/fruit8.png" alt="Apple" class="" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title font-bold text-2xl">12.90$ - 18.85$</h2>
+                        <hr class="hr">
+                        <p  class="font-medium text-[#12121299] text-base">Red Dragon</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <div class="card-actions">
+                            <h2>Datails</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-xl border border-gray-200">
+                    <figure class="px-10 pt-10">
+                        <img src="images/fruit9.png" alt="Apple" class="" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title font-bold text-2xl">12.90$ - 18.85$</h2>
+                        <hr class="hr">
+                        <p class="font-medium text-[#12121299] text-base">Banana</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-amber-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <div class="card-actions">
+                            <h2>Datails</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
