@@ -24,9 +24,9 @@
 <body>
     <header>
         <div class="container mx-auto lg:py-10 ">
-            <div class="flex flex-col lg:flex-row p-5 lg:p-0">
+            <div class="flex flex-col lg:flex-row md:flex-row p-5 lg:p-0">
                 <div
-                    class="navbar flex flex-col lg:flex-row bg-base-100 px-10 py-7 bg-[#F85559] text-white lg:rounded-full rounded-md">
+                    class="navbar flex flex-col lg:flex-row md:flex-row  bg-base-100 px-10 py-7 bg-[#F85559] text-white lg:rounded-full rounded-md">
                     <div class="navbar-start">
                         <ul class="menu flex flex-col lg:flex-row items-center font-medium text-lg">
                             <li><a href="">Home</a></li>
@@ -52,7 +52,8 @@
     </header>
     <main class="container mx-auto">
         <!-- Exotic tastes -->
-        <section class="exotoic-taste  p-5 lg:p-0 ">
+        <section class="exotoic-taste  p-5 lg:p-0 relative ">
+
             <div class="carousel w-full ">
                 <!-- one -->
                 <div id="slide1"
@@ -129,13 +130,37 @@
                     </div>
                 </div>
             </div>
+            <div id="banner-bottom-part" class="bg-white mx-auto lg:w-[1150px] h-60 rounded-lg absolute -bottom-28 left-16 flex items-center justify-evenly  ">
+                <div class="grid grid-cols-1 lg:grid-cols-5 content-center justify-items-center gap-16 text-center">
+                    <div>
+                        <img src="images/fruit1.png" alt="">
+                        <h2  class="text-[#121212CC] font-bold text-xl mt-4">Grapes</h2>
+                    </div>
+                    <div>
+                        <img src="images/fruit2.png" alt="">
+                        <h2  class="text-[#121212CC] font-bold text-xl mt-4">Oranges</h2>
+                    </div>
+                    <div>
+                        <img src="images/fruit3.png" alt="">
+                        <h2  class="text-[#121212CC] font-bold text-xl mt-4">Mangoes</h2>
+                    </div>
+                    <div>
+                        <img src="images/fruit4.png" alt="">
+                        <h2  class="text-[#121212CC] font-bold text-xl mt-4">Strawberry</h2>
+                    </div>
+                    <div>
+                        <img src="images/fruit5.png" alt="">
+                        <h2  class="text-[#121212CC] font-bold text-xl mt-4">Dalim</h2>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- Deal of the day -->
         <section>
             <!-- deal part 1 -->
             <div
-                class="flex flex-col lg:flex-row lg:justify-between items-center text-center lg:text-start lg:py-24 p-5 lg:p-0">
+                class="flex flex-col lg:flex-row lg:justify-between items-center text-center lg:text-start lg:py-24 p-5 lg:p-0 lg:mt-36">
                 <div>
                     <h2 class="font-extrabold text-[#121212] lg:text-5xl text-3xl mb-6">Deal Of The Day</h2>
                     <p class="text-base text-gray-500">Contrary to popular belief, is not simply random text. It has
@@ -452,7 +477,7 @@
                 </a>
             </div>
             <div class="text-[#FFF] font-semibold lg:text-xl lg:mb-7 px-12 lg:p-0">
-                <div class="flex items-center lg:justify-center lg:p-0 lg:gap-12 gap-6 text-center ">
+                <div id="menu-links" class="flex items-center lg:justify-center lg:p-0 lg:gap-12 gap-6 text-center ">
                     <a href="">Home</a>
                     <a href="">About us</a>
                     <a href="">Shop</a>
